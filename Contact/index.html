@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Contact - Xenon Core</title>
+    <meta content="#12d6df" name="theme-color" />
+
+    <meta
+      name="description"
+      content="Contact - Xenon VPN - A Free, Secure, and Fast VPN for Privacy and Freedom."
+    />
+    <meta name="url" content="https://xenoncore.org/Contact" />
+    <meta name="identifier-URL" content="https://xenoncore.org/Contact" />
+    <link rel="shortlink" href="https://xenoncore.org/Contact" />
+    <link rel="canonical" href="https://xenoncore.org/Contact" />
+    <meta name="canonicalURL" content="https://xenoncore.org/Contact" />
+    <meta name="msapplication-TileColor" content="#12d6df" />
+
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="https://xenoncore.org/assets/l92.png"
+    />
+    <link
+      rel="icon"
+      sizes="512x512"
+      href="https://xenoncore.org/assets/512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://xenoncore.org/assets/32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://xenoncore.org/assets/16.png"
+    />
+
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="text/JavaScript">
+      function killCopy(e){
+      return false
+      }
+      function reEnable(){
+      return true
+      }
+      document.onselectstart=new Function ("return false")
+      if (window.sidebar){
+      document.onmousedown=killCopy
+      document.onclick=reEnable
+      }
+    </script>
+    <script type="text/javascript">
+      var message = "";
+      function clickIE() {
+        if (document.all) {
+          message;
+          return false;
+        }
+      }
+
+      function clickNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            message;
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+      } else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+      }
+
+      document.oncontextmenu = new Function("return false");
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.addEventListener(
+          "contextmenu",
+          function (e) {
+            e.preventDefault();
+          },
+          false
+        );
+        document.addEventListener(
+          "keydown",
+          function (e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+              disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+              disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (
+              e.keyCode == 83 &&
+              (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)
+            ) {
+              disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+              disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+              disabledEvent(e);
+            }
+          },
+          false
+        );
+        function disabledEvent(e) {
+          if (e.stopPropagation) {
+            e.stopPropagation();
+          } else if (window.event) {
+            window.event.cancelBubble = true;
+          }
+          e.preventDefault();
+          return false;
+        }
+      };
+    </script>
+  </head>
+  <body class="dark-theme">
+    <!-- Animated Background -->
+    <div class="animated-background"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo"><a href="https://xenoncore.org">Xenon Core</a></div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="https://xenoncore.org">Home</a></li>
+            <li>
+              <a href="https://xenoncore.org/PrivacyPolicy">Privacy Policy</a>
+            </li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+          <!-- Phone -->
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+1 (281) 942-0872</p>
+          </div>
+          <!-- Address -->
+          <!-- <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Xenon Street, Core City, Earth</p>
+          </div> -->
+          <!-- Email -->
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>support@xenoncore.com</p>
+          </div>
+          <!-- Social Media -->
+          <!-- <div class="contact-card">
+            <i class="fas fa-share-alt"></i>
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Xenon Core. All rights reserved.</p>
+        <ul>
+          <li>
+            <a href="https://xenoncore.org/PrivacyPolicy">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="../assets/script.js"></script>
+  </body>
+</html>

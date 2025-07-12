@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Privacy Policy - Xenon Warp</title>
+    <meta content="#12d6df" name="theme-color" />
+
+    <meta
+      name="description"
+      content="Privacy Policy - Xenon Warp - A Free, Secure, and Fast Solution for Privacy and Freedom."
+    />
+    <meta name="url" content="https://xenoncore.org/PrivacyPolicy" />
+    <meta name="identifier-URL" content="https://xenoncore.org/PrivacyPolicy" />
+    <link rel="shortlink" href="https://xenoncore.org/PrivacyPolicy" />
+    <link rel="canonical" href="https://xenoncore.org/PrivacyPolicy" />
+    <meta name="canonicalURL" content="https://xenoncore.org/PrivacyPolicy" />
+    <meta name="msapplication-TileColor" content="#12d6df" />
+
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="https://xenoncore.org/assets/l92.png"
+    />
+    <link
+      rel="icon"
+      sizes="512x512"
+      href="https://xenoncore.org/assets/512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://xenoncore.org/assets/32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://xenoncore.org/assets/16.png"
+    />
+
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="text/JavaScript">
+      function killCopy(e){
+      return false
+      }
+      function reEnable(){
+      return true
+      }
+      document.onselectstart=new Function ("return false")
+      if (window.sidebar){
+      document.onmousedown=killCopy
+      document.onclick=reEnable
+      }
+    </script>
+    <script type="text/javascript">
+      var message = "";
+      function clickIE() {
+        if (document.all) {
+          message;
+          return false;
+        }
+      }
+
+      function clickNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            message;
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+      } else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+      }
+
+      document.oncontextmenu = new Function("return false");
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.addEventListener(
+          "contextmenu",
+          function (e) {
+            e.preventDefault();
+          },
+          false
+        );
+        document.addEventListener(
+          "keydown",
+          function (e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+              disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+              disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (
+              e.keyCode == 83 &&
+              (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)
+            ) {
+              disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+              disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+              disabledEvent(e);
+            }
+          },
+          false
+        );
+        function disabledEvent(e) {
+          if (e.stopPropagation) {
+            e.stopPropagation();
+          } else if (window.event) {
+            window.event.cancelBubble = true;
+          }
+          e.preventDefault();
+          return false;
+        }
+      };
+    </script>
+  </head>
+  <body class="dark-theme">
+    <div class="animated-background"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo"><a href="https://xenoncore.org">Xenon Warp</a></div>
+          <ul class="nav-links">
+            <li><a href="https://xenoncore.org">Home</a></li>
+            <li><a href="https://xenoncore.org/Contact">Contact Us</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="privacy" class="privacy">
+      <div class="container">
+        <h2>Privacy Policy</h2>
+        <p>Last updated: February 2025</p>
+
+        <div class="privacy-content">
+          <div class="privacy-section">
+            <h3>1. Introduction</h3>
+            <p>
+              At Xenon Warp, we prioritize your privacy. We do not collect, store, or share any of your personal information. This application requires you to provide your own private server, as we do not offer any server infrastructure. Your data remains entirely in your control.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>2. Data Collection</h3>
+            <p>We may collect the following types of information:</p>
+            <ul>
+              <li>
+                <strong>1.1. We Do Not Collect Sensitive Information: </strong> We do not gather, access, or store any of the following sensitive information: </br> 
+- Names (including usernames, screen names, or subscriber names)  
+</br>- Addresses (residential or business)  
+</br>- Telephone numbers  
+</br>- Payment details (credit card numbers, bank account information, or billing records)
+</br></br><strong>Additionally, we do not log or collect any data related to your online activities, such as:</strong>
+</br>- Browsing history  
+</br>- Traffic destination  
+</br>- Data content  
+</br>- DNS queries
+              </li>
+              <li>
+                <strong>1.2. Minimal Data Transmission:</strong> This application requires a private server provided by you. We do not offer or manage any servers on your behalf. When you use Xenon Warp to connect to a WireGuard-compatible server, the following information is transmitted by you voluntarily:
+</br>- Your IP address  
+</br>- IP addresses of the sites you are connecting to
+              </li>
+              <li>
+                <strong>1.3. App Permissions:</strong> Xenon Warp does not require or request access to sensitive permissions on your device, such as:
+</br>- Contacts  
+</br>- Location  
+</br>- Device ID  
+</br>- Storage  
+</br>- Microphone  
+</br>- Camera
+              </li>
+            </ul>
+          </div>
+
+          <div class="privacy-section">
+            <h3>3. Data Usage</h3>
+            <p>Since we do not collect any data, there is no data for us to use. Your privacy is fully respected at all times.</p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>4. Data Sharing and Transfer</h3>
+            <p>
+              We do not share, transfer, or disclose any data to third parties. Your information remains entirely private.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>5. Security Measures</h3>
+            <p>
+              We have implemented robust security measures to ensure the protection of any data transmitted through the application. Access to any system-related information is strictly limited to authorized personnel only.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>6. Data Retention</h3>
+            <p>
+              We do not collect or store any data, so data retention is not applicable to our application.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>7. Right to Be Forgotten</h3>
+            <p>
+              Since we do not collect or store any personal data, the "right to be forgotten" does not apply in the context of our application.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>8. Third-Party Services</h3>
+            <p>
+              Xenon Warp is designed to work with your own privately deployed server. However, if you choose to use third-party services (e.g., Warp or Psiphon) through our application, we recommend reviewing their respective privacy policies to understand how they handle your data.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>9. Advertising</h3>
+            <p>
+              Xenon Warp uses Google AdMob to display advertisements within the app. Google AdMob is a widely used and trusted advertising platform that complies with all applicable laws and regulations, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
+</br>
+</br>
+The advertisements served through Google AdMob are designed to be safe, relevant, and non-intrusive. Google AdMob may collect certain information to personalize ads, such as your device's advertising identifier, IP address, and usage data. However, this information is anonymized and does not personally identify you.
+</br>
+</br>
+For more information about how Google AdMob handles data, please review Google’s Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+</br>
+</br>
+By using Xenon Warp, you consent to the use of Google AdMob and the display of advertisements as described in this policy. If you have any concerns about the ads displayed, you can manage your ad preferences through your device settings or Google’s Ad Settings.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>10. Children’s Privacy</h3>
+            <p>
+              We encourage parents and guardians to educate children about online privacy and safety. Since we do not collect any personal data, our application does not pose any risks to children’s privacy.
+            </p>
+          </div>
+
+          <div class="privacy-section">
+            <h3>11. Contact Us</h3>
+            <p>
+              If you have any questions about this Privacy Policy, please
+              contact us at
+              <a href="mailto:support@xenoncore.org">support@xenoncore.org</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Xenon Warp. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../assets/script.js"></script>
+  </body>
+</html>
